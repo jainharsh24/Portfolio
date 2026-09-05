@@ -6,41 +6,40 @@ const skills = [
   {
     icon: () => <span>☕</span>,
     name: "Java",
-    description: "Core Java, OOPs, Collections, and Multithreading.",
-    tags: ["Java 17", "Streams API"]
+    description: "Building backend applications with strong OOP and core Java fundamentals.",
+    tags: ["Java", "OOP", "Collections", "Exception Handling"]
   },
   {
     icon: () => <span>🌱</span>,
     name: "Spring Boot",
-    description: "Building robust REST APIs and microservices architectures.",
-    tags: ["Spring Security", "Spring Data JPA"]
-  },
-  {
-    icon: () => <span>⚛️</span>,
-    name: "React",
-    description: "Developing modern, interactive, responsive web applications.",
-    tags: ["React 19", "Tailwind CSS", "Framer Motion"]
+    description: "Developing REST APIs and backend applications with a focus on clean and maintainable architecture.",
+    tags: ["Spring Boot", "Spring Security", "Spring Data JPA"]
   },
   {
     icon: () => <span>🗄️</span>,
-    name: "DataBase Management",
-    description: "Designing efficient relational databases and managing structure.",
-    tags: ["MySQL", "PostgreSQL"]
+    name: "Databases",
+    description: "Designing and working with relational databases for backend applications and data-driven systems.",
+    tags: ["PostgreSQL", "SQL", "Hibernate", "JPA"]
   },
   {
-    icon: () => <span>📱</span>,
-    name: "Mobile Development",
-    description: "Creating cross-platform mobile layouts and experiences.",
-    tags: ["Android Studio", "React Native"]
+    icon: () => <span>🧠</span>,
+    name: "Problem Solving",
+    description: "Strengthening algorithmic thinking and problem-solving skills through Data Structures and Algorithms.",
+    tags: ["DSA", "LeetCode", "Algorithms"]
+  },
+  {
+    icon: () => <span>⚛️</span>,
+    name: "Frontend Development",
+    description: "Building responsive interfaces and connecting them with backend services and REST APIs.",
+    tags: ["React", "JavaScript", "Tailwind CSS"]
   },
   {
     icon: () => <span>🛠️</span>,
-    name: "Tools & Technologies",
-    description: "Utilizing modern DevOps tools and version control systems.",
-    tags: ["Git", "GitHub", "Maven", "Docker"]
+    name: "Development Tools",
+    description: "Using modern development tools for version control, deployment, and backend development.",
+    tags: ["Git", "GitHub", "Maven", "Linux", "AWS"]
   }
 ];
-
 
 
 
@@ -55,8 +54,7 @@ const Skills = () => {
           <span className='text-purple'> Skills</span>
         </h2>
         <p className='text-gray-400 text-center max-w-2xl 
-        mx-auto mb-16'>Here are some of the technologies
-        I have worked with and have experience in.</p>
+        mx-auto mb-16'>Technologies and concepts I use to build, understand, and improve software.</p>
 
 
         <motion.div

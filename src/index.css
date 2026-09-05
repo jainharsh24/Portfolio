@@ -30,7 +30,7 @@
 
 @keyframes typing {
   from { width: 0;}
-  to { width: 11ch; } /* match the number of characters */
+  to { width: 24ch; } /* match the number of characters */
 }
 
 @keyframes blink-caret {

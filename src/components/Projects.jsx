@@ -4,25 +4,50 @@ import ProjectCard from './ProjectCard'
 import { FaArrowRight } from 'react-icons/fa';
 
 
-
 const projects = [
   {
-    title: "SelfEdu Platform",
-    description: "A full-stack online learning platform built with Ai systems.",
-    image: "https://unsplash.com",
-    tech: ["Java", "Spring Boot", "PostgreSQL", "Thymeleaf"]
+    title: "SelfEdu — AI Learning Platform",
+    description:
+      "An AI-powered self-learning platform that generates personalized learning roadmaps and provides curated resources, quizzes, and progress tracking.",
+    image: "/projects/selfedu.png",
+    tech: [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "Spring Security",
+      "Groq API"
+    ],
+    demo: "#",
+    code: "#"
   },
   {
-    title: "AI Medical Report Analyzer",
-    description: "An AI-powered tool for analyzing medical reports and generating insights.",
-    image: "https://unsplash.com",
-    tech: ["java", "Spring boot", "Groq API" , "PostgreSQL"]
+    title: "ExplainReport — AI Medical Report Explainer",
+    description:
+      "A Spring Boot application that processes medical reports and combines rule-based analysis with AI to generate understandable insights and alerts.",
+    image: "/projects/explainreport.png",
+    tech: [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "Groq API",
+      "AWS EC2"
+    ],
+    demo: "#",
+    code: "#"
   },
   {
-    title: "Third-party APPS risky permission Detector",
-    description: "A tool that detects risky permissions in third-party applications to enhance user privacy and security.",
-    image: "https://unsplash.com",
-    tech: ["Kotlin", "Android Studio", "Android SDK", "Android Package Manager"]
+    title: "Third-Party App Risky Permission Detector",
+    description:
+      "An Android security tool that analyzes third-party applications and identifies potentially risky permissions to improve user privacy and security.",
+    image: "/projects/permission-detector.png",
+    tech: [
+      "Kotlin",
+      "Android Studio",
+      "Android SDK",
+      "Android Package Manager"
+    ],
+    demo: "#",
+    code: "#"
   }
 ];
 
@@ -40,7 +65,7 @@ const Projects = () => {
                 My <span className='text-purple'>Projects</span>
             </h2>
             <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16'
-            >A selection of my recent work and accomplishments.</p>
+            >Projects where I turn ideas and problems into practical software.</p>
 
             {/* 3. motion wrapper handles the slide-up animation for the grid and the button underneath */}
             <motion.div

@@ -3,16 +3,11 @@ import { motion } from 'framer-motion';
 
 const workData = [
   {
-    role: "Java Developer Intern",
-    company: "Tech Solutions Inc.",
-    duration: "Jan 2026 - Present",
-    description: "Building scalable backend microservices and secure REST APIs using Spring Boot framework models." // Added data key
-  },
-  {
-    role: "Python Developer Intern",
+    role: "Python Development Intern",
     company: "ShadowFox",
     duration: "Feb 2026 - Mar 2026",
-    description: "Designed custom web scraping workflows and automated analytics reporting dashboards." // Added data key
+    description:
+      "Developed Python-based automation scripts and conducted structured experiments to analyze LLM behavior, including prompt sensitivity, context retention, temperature effects, reasoning, and model accuracy."
   }
 ];
 
