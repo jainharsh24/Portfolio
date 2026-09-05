@@ -13,7 +13,7 @@ My personal portfolio website showcasing my projects, skills, experience, and jo
 ## 🚀 Run Locally
 
 ```bash
-git clone https://github.com/jainharsh24/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/jainharsh24/Portfolio.git
+cd Portfolio
 npm install
 npm run dev
